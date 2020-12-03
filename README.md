@@ -1,2 +1,3 @@
 # c_learn
-learn c 
+
+use C to practice
