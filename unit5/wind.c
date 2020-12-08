@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main()
+{
+  float speed;
+  printf("Enter the value of speed of windy:");
+  scanf("%f", &speed);
+
+  if (speed <= 1)
+  {
+    printf("Calm");
+  }
+  else if (speed <= 3)
+  {
+    printf("Light air");
+  }
+  else if (speed <= 27)
+  {
+    printf("Breeze");
+  }
+  else if (speed <= 47)
+  {
+    printf("Gale");
+  }
+  else if (speed <= 63)
+  {
+    printf("Storm");
+  }
+  else
+  {
+    printf("Hurricane");
+  }
+}
